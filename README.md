@@ -86,16 +86,15 @@ customer-satisfaction fields.
 
 The cleaning stage included:
 
-**Duplicate and missing Ticket ID checks.**
+- Duplicate and missing Ticket ID checks.
+  ![Checking for duplicates](excel./duplicates.png)
 
-![Checking for duplicates](excel./duplicates.png)
-
-**Standardization of inconsistent categorical values.**
-
-![find_and_replace](excel./find_and_replace.png)
-
+- Standardization of inconsistent categorical values.
+   ![find_and_replace](excel./find_and_replace.png)
 -   Whitespace and capitalization cleanup.
--   Timestamp chronology validation.
+-   Timestamp chronology validation and formatting.
+  ![Timestamp chronology validation and formatting](excel./time_formating.png)
+
 -   Data-quality flags for invalid response, resolution, and close
     timestamps.
 -   Preservation of legitimate missing values.
@@ -118,23 +117,17 @@ ticket can still contain valid operational information.
 
 ------------------------------------------------------------------------
 
-# Tools & Technologies
+## 🛠 Tools Used
+| Tool | Purpose |
+|------|---------|
+| **Microsoft Excel**  | Data cleaning, standardization,  validation and quality checks |
+| **MySQL** | Exploratory Data Analysis, KPI calculation and diagnostic analysis |
+| **Tableau Public** | Interactive dashboard and data visualization |
+| **GitHub** | Version control and project documentation |
 
   -----------------------------------------------------------------------
-  Tool                                Purpose
-  ----------------------------------- -----------------------------------
-  **Microsoft Excel**                 Data cleaning, standardization,
-                                      validation and quality checks
 
-  **MySQL**                           Business analysis, KPI calculation
-                                      and diagnostic analysis
 
-  **Tableau Public**                  Interactive dashboard and data
-                                      visualization
-
-  **GitHub**                          Version control and project
-                                      documentation
-  -----------------------------------------------------------------------
 
 ### SQL techniques
 
