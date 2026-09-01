@@ -17,6 +17,13 @@
 - [Tools Used](#-tools-used)
 - [Key Findings](#key-findings)
   - [1. Support Demand & Workload](#1-support-demand--workload)
+  - [2. Support Efficiency](#2-support-efficiency)
+  - [3. SLA Performance](#3-sla-performance)
+  - [4. Resolution SLA performance deteriorates during the year](#4-resolution-sla-performance-deteriorates-during-the-year)
+  - [5. Agent Performance & Customer Experience](#5-agent-performance--customer-experience)
+- [Management Recommendations](#management-recommendations)
+- [Tableau Dashboard](#tableau-dashboard)
+    
 
 ---
 
@@ -155,7 +162,7 @@ ticket can still contain valid operational information.
 
 ------------------------------------------------------------------------
 
-### 1: Support Demand & Workload
+### 1. Support Demand & Workload
 
 **Where is demand concentrated, and which channels carry the load?**
 
@@ -259,7 +266,7 @@ since faster/SLA-compliant tickets don't score higher satisfaction, pair this da
 
 ---
 
-# Tableau Dashboard
+## Tableau Dashboard
 *💡 **Note:** Click the dashboard image layout below to open the fully interactive visualization on Tableau
 
 [![Executive Dashboard](Dashboard/technical_support.png)](https://public.tableau.com/views/customer_support/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
