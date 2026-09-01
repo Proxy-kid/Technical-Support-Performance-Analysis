@@ -145,6 +145,16 @@ ticket can still contain valid operational information.
 
 # Key Findings
 
+## Headline Numbers
+
+| Metric | Value |
+|---|---|
+| Total tickets | 2,330 |
+| Resolved or closed | 1,912 (82.1%) |
+| First Response SLA compliance | 87% |
+| Resolution SLA compliance | 81% |
+| Average CSAT | 3.5 / 5 |
+
 
 ### 1. Support Demand & Workload
 
