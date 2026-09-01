@@ -23,6 +23,10 @@
   - [5. Agent Performance & Customer Experience](#5-agent-performance--customer-experience)
 - [Management Recommendations](#management-recommendations)
 - [Tableau Dashboard](#tableau-dashboard)
+- [Conclusion](#conclusion)
+- [Project Structure](#project-structure)
+- [Author](#Author)
+- [Disclaimer][#Disclaimer]
     
 
 ---
@@ -304,7 +308,7 @@ performance.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ``` text
 technical-support-performance/
