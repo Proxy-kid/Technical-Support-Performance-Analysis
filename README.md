@@ -16,7 +16,7 @@
 - [Data Preparation](#data-preparation)
 - [Tools Used](#-tools-used)
 - [Key Findings](#key-findings)
-  - [1. Support Demand & Workload](1-support-demand--workload)
+  - [1. Support Demand & Workload](#1-support-demand--workload)
 
 ---
 
@@ -155,7 +155,7 @@ ticket can still contain valid operational information.
 
 ------------------------------------------------------------------------
 
-### 1. Support Demand & Workload
+### 1: Support Demand & Workload
 
 **Where is demand concentrated, and which channels carry the load?**
 
