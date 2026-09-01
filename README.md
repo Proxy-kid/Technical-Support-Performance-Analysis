@@ -261,9 +261,6 @@ since faster/SLA-compliant tickets don't score higher satisfaction, pair this da
 
 [![Executive Dashboard](Dashboard/technical_support.png)](https://public.tableau.com/views/customer_support/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-
-**Tableau Public:** 
-
 ------------------------------------------------------------------------
 
 # Conclusion
@@ -309,7 +306,7 @@ technical-support-performance/
 │   └── technical_support_analysis.sql
 │
 ├── dashboard/
-│   └── technical_support_dashboard.png
+│   └── technical_support.png
 │
 └── README.md
 ```
