@@ -92,7 +92,7 @@ The cleaning stage included:
 
 **Standardization of inconsistent categorical values.**
 
-![Checking for duplicates](excel./duplicates.png)
+![find_and_replace](excel./find_and_replace.png)
 
 -   Whitespace and capitalization cleanup.
 -   Timestamp chronology validation.
