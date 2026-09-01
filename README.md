@@ -177,32 +177,27 @@ documentation, FAQs, troubleshooting resources, and product education.
 - **Resolution speed:** Averages roughly 30–39 hours across topics and priorities, with *Bug report* (29.9 hrs) resolved fastest and *Training request* (38.9 hrs) slowest. Priority level barely moves resolution time (Low: 32.2 hrs, High: 33.2 hrs, Medium: 34.9 hrs) — **High-priority tickets are not being resolved meaningfully faster than Low-priority ones**, which is worth flagging operationally.
 - **Resolution-to-close lag:** Once a ticket is resolved, it sits **59–70 more hours** before being formally closed, with Chat tickets waiting longest (69.7 hrs). This is pure administrative delay after the actual fix — a process-tightening opportunity that costs nothing to implement.
 ---
+### 3. SLA Performance
 
-## 3. Resolution SLA performance deteriorates during the year
+**How well is the team hitting its response and resolution targets, and what predicts a miss?**
+
+- **First Response SLA:** 87% met overall. Email performs best (91.8% within SLA) despite being the slowest channel in raw minutes — its SLA window is simply set looser. Phone has the weakest compliance (75%) even though it responds fastest in absolute terms, meaning its SLA target is tighter relative to typical handling time.
+- **Resolution SLA:** 81% met overall. 2nd-line support slightly outperforms 1st-line (83.4% vs 80.0%).
+- **What predicts a violation:** Priority is *not* the main driver — Medium-priority tickets violate resolution SLA most often (21.6%), slightly ahead of Low (18.4%) and High (17.0%). Tier 1 support has a higher violation rate (20.0%) than Tier 2 (16.6%).
+
+**Takeaway:** SLA misses aren't concentrated where you'd expect (urgent tickets) — they're spread fairly evenly, and Medium-priority tickets are actually the weakest performers. This suggests a triage/workload issue rather than a difficulty issue.
+
+------------------------------------------------------------------------
+
+## 4. Resolution SLA performance deteriorates during the year
 
 The monthly resolution-SLA analysis shows a decline from approximately
 **87% early in the year to 72% toward year-end**.
 
 **Business implication:** Management should investigate whether the
 deterioration is associated with changes in ticket volume, ticket
-complexity, topic mix, product mix, priority distribution, workload, or
+complexity, workload, or
 escalation processes.
-
-------------------------------------------------------------------------
-
-## 4. Resolution SLA violations occur across multiple operational dimensions
-
-Resolution SLA performance was compared across:
-
--   Priority
--   Topic
--   Product group
--   Support channel
--   Support level
--   Agent group
-
-This moves the analysis beyond simply reporting an overall SLA rate and
-helps identify where operational failures are concentrated.
 
 ------------------------------------------------------------------------
 
