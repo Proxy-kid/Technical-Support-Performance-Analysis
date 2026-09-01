@@ -1,4 +1,3 @@
-# Technical-Support-Performance-Analysis
 # Technical Support Performance Analysis
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-success)
