@@ -169,23 +169,14 @@ documentation, FAQs, troubleshooting resources, and product education.
 
 ------------------------------------------------------------------------
 
-## 2. First-response performance is stronger than resolution performance
+### 2. Support Efficiency
 
-  KPI                         Result
-  -------------------- -------------
-  Total tickets            **2,330**
-  Resolved tickets         **1,912**
-  Resolution rate          **82.1%**
-  First-response SLA         **87%**
-  Resolution SLA             **81%**
-  Average CSAT           **3.5 / 5**
+**How fast does the team respond and resolve, and where do delays creep in?**
 
-The **6-percentage-point gap** between first-response SLA and resolution
-SLA indicates that the larger operational challenge occurs after the
-initial response: moving tickets through the process to final resolution
-within the required SLA.
-
-------------------------------------------------------------------------
+- **First response speed by channel:** Chat (1.9 min) and Phone (5.3 min) are answered almost instantly; Email lags far behind at **48.4 minutes** on average — a real gap given Email is also the highest-volume channel.
+- **Resolution speed:** Averages roughly 30–39 hours across topics and priorities, with *Bug report* (29.9 hrs) resolved fastest and *Training request* (38.9 hrs) slowest. Priority level barely moves resolution time (Low: 32.2 hrs, High: 33.2 hrs, Medium: 34.9 hrs) — **High-priority tickets are not being resolved meaningfully faster than Low-priority ones**, which is worth flagging operationally.
+- **Resolution-to-close lag:** Once a ticket is resolved, it sits **59–70 more hours** before being formally closed, with Chat tickets waiting longest (69.7 hrs). This is pure administrative delay after the actual fix — a process-tightening opportunity that costs nothing to implement.
+---
 
 ## 3. Resolution SLA performance deteriorates during the year
 
