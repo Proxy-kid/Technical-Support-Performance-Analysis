@@ -6,6 +6,20 @@
 ![MySQL](https://img.shields.io/badge/MySQL-Analysis-4479A1)
 ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627)
 
+---
+
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Business Objectives](#business-objectives)
+- [Business Questions](#business-questions)
+- [Data Preparation](#data-preparation)
+- [Tools Used](#-tools-used)
+- [Key Findings](#key-findings)
+  - [1. Support Demand & Workload](1-support-demand--workload)
+
+---
+
 ## Executive Summary
 
 This project analyzes a 2023 technical support operation containing
@@ -30,7 +44,7 @@ over the year. Average customer satisfaction is **3.5/5**. The analysis
 did not identify a clear negative relationship between resolution speed
 and CSAT in the observed data.
 
-------------------------------------------------------------------------
+---
 
 ## Business Objectives
 
@@ -46,7 +60,7 @@ and CSAT in the observed data.
 -   Identify areas where management should prioritize operational
     improvement.
 
-------------------------------------------------------------------------
+---
 
 ## Business Questions
 
@@ -74,9 +88,9 @@ and CSAT in the observed data.
 11. Is slower resolution associated with lower customer satisfaction?
 12. Does SLA compliance correspond with higher customer satisfaction?
 
-------------------------------------------------------------------------
+---
 
-# Data Preparation
+## Data Preparation
 
 The dataset contains **2,330 technical support tickets** with
 operational, SLA, agent, product, channel, geographic, and
@@ -115,7 +129,7 @@ Invalid timestamps were **flagged rather than overwritten**. A faulty
 timestamp does not automatically make the entire ticket unusable; the
 ticket can still contain valid operational information.
 
-------------------------------------------------------------------------
+---
 
 ## 🛠 Tools Used
 | Tool | Purpose |
@@ -125,27 +139,11 @@ ticket can still contain valid operational information.
 | **Tableau Public** | Interactive dashboard and data visualization |
 | **GitHub** | Version control and project documentation |
 
-  -----------------------------------------------------------------------
+---
 
+## Key Findings
 
-
-### SQL techniques
-
--   Aggregations and `GROUP BY`
--   Conditional aggregation
--   `CASE`
--   CTEs
--   Window functions
--   `TIMESTAMPDIFF`
--   Date functions
--   KPI calculations
--   Data-quality filtering
-
-------------------------------------------------------------------------
-
-# Key Findings
-
-## Headline Numbers
+**Headline Numbers**
 
 | Metric | Value |
 |---|---|
@@ -155,6 +153,7 @@ ticket can still contain valid operational information.
 | Resolution SLA compliance | 81% |
 | Average CSAT | 3.5 / 5 |
 
+------------------------------------------------------------------------
 
 ### 1. Support Demand & Workload
 
@@ -177,7 +176,7 @@ largest support-demand areas.
 reducing avoidable support demand through improved onboarding,
 documentation, FAQs, troubleshooting resources, and product education.
 
-------------------------------------------------------------------------
+---
 
 ### 2. Support Efficiency
 
@@ -186,7 +185,9 @@ documentation, FAQs, troubleshooting resources, and product education.
 - **First response speed by channel:** Chat (1.9 min) and Phone (5.3 min) are answered almost instantly; Email lags far behind at **48.4 minutes** on average — a real gap given Email is also the highest-volume channel.
 - **Resolution speed:** Averages roughly 30–39 hours across topics and priorities, with *Bug report* (29.9 hrs) resolved fastest and *Training request* (38.9 hrs) slowest. Priority level barely moves resolution time (Low: 32.2 hrs, High: 33.2 hrs, Medium: 34.9 hrs) — **High-priority tickets are not being resolved meaningfully faster than Low-priority ones**, which is worth flagging operationally.
 - **Resolution-to-close lag:** Once a ticket is resolved, it sits **59–70 more hours** before being formally closed, with Chat tickets waiting longest (69.7 hrs). This is pure administrative delay after the actual fix — a process-tightening opportunity that costs nothing to implement.
+  
 ---
+
 ### 3. SLA Performance
 
 **How well is the team hitting its response and resolution targets, and what predicts a miss?**
@@ -197,9 +198,9 @@ documentation, FAQs, troubleshooting resources, and product education.
 
 **Takeaway:** SLA misses aren't concentrated where you'd expect (urgent tickets) — they're spread fairly evenly, and Medium-priority tickets are actually the weakest performers. This suggests a triage/workload issue rather than a difficulty issue.
 
-------------------------------------------------------------------------
+---
 
-## 4. Resolution SLA performance deteriorates during the year
+### 4. Resolution SLA performance deteriorates during the year
 
 The monthly resolution-SLA analysis shows a decline from approximately
 **87% early in the year to 72% toward year-end**.
@@ -209,7 +210,8 @@ deterioration is associated with changes in ticket volume, ticket
 complexity, workload, or
 escalation processes.
 
-------------------------------------------------------------------------
+---
+
 ### 5. Agent Performance & Customer Experience
 
 **How does performance vary by agent, and does speed or SLA compliance actually drive satisfaction?**
@@ -220,7 +222,9 @@ escalation processes.
 
 **Takeaway:** This is the most important — and most counter-intuitive — finding in the analysis. Speed and SLA compliance, as currently measured, are not what's driving customer satisfaction. CSAT is likely being shaped by something else entirely (how the issue was resolved, communication quality, first-contact resolution, agent tone) rather than the clock. Chasing faster resolution times alone will not move satisfaction scores — the team should investigate qualitative drivers of CSAT before over-indexing on speed metrics.
 
-# Management Recommendations
+---
+
+## Management Recommendations
 
 ### 1. Reduce avoidable demand from high-volume topics
 
@@ -253,15 +257,14 @@ it has the worst resolution SLA compliance despite not being the most urgent tie
 ### 6. Don't optimize CSAT via speed alone 
 since faster/SLA-compliant tickets don't score higher satisfaction, pair this dataset with qualitative feedback (survey comments, call transcripts) to find the real satisfaction drivers before setting new team targets.
 
-
-------------------------------------------------------------------------
+---
 
 # Tableau Dashboard
 *💡 **Note:** Click the dashboard image layout below to open the fully interactive visualization on Tableau
 
 [![Executive Dashboard](Dashboard/technical_support.png)](https://public.tableau.com/views/customer_support/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-------------------------------------------------------------------------
+---
 
 # Conclusion
 
@@ -292,26 +295,31 @@ performance.
 > performance together with workload and CSAT to identify the
 > highest-impact areas for intervention.**
 
-------------------------------------------------------------------------
+---
 
 # Project Structure
 
 ``` text
 technical-support-performance/
+|
+├── Dashboard/
+│   └── technical_support.png
 │
 ├── data/
-│   └── technical_support_dataset.csv
+│   └── customer_support.csv
+|
+├── excel./
+│   ├── duplicates.png
+|   ├── find_and_replace.png
+|   └── time_formating.png
 │
 ├── sql/
-│   └── technical_support_analysis.sql
-│
-├── dashboard/
-│   └── technical_support.png
+│   └── technical_support_eda.sql
 │
 └── README.md
 ```
 
-------------------------------------------------------------------------
+---
 
 # Skills Demonstrated
 
@@ -353,18 +361,18 @@ technical-support-performance/
 -   Management recommendations
 -   Communicating analytical limitations
 
-------------------------------------------------------------------------
+---
 
-# Author
+## Author
 
-**Baasey Akan**
+**Bassey Akan**
 
-Aspiring Data Analyst
+Data Analyst
 
 -   GitHub: https://github.com/Proxy-kid
 -   LinkedIn: https://www.linkedin.com/in/bassey-akan
 
-------------------------------------------------------------------------
+---
 
 ## Disclaimer
 
