@@ -145,7 +145,10 @@ ticket can still contain valid operational information.
 
 # Key Findings
 
-## 1. Support demand is concentrated
+
+### 1. Support Demand & Workload
+
+**Where is demand concentrated, and which channels carry the load?**
 
   | Topic                    |    Tickets | Share |
   |-------------------------- |--------- |--------|
