@@ -149,10 +149,10 @@ ticket can still contain valid operational information.
 
   | Topic                    |    Tickets | Share |
   |-------------------------- |--------- |--------|
-  | Product setup             |     630 | 31.61% |
-  | Pricing and licensing     |     457  |  22.93% |
-  | Feature request            |      417 |  20.92% |
-  | Purchasing and invoicing   |      264  | 13.25% |
+  | Product setup             |     630 | 27% |
+  | Pricing and licensing     |     525  |  23% |
+  | Feature request            |      417 |  18% |
+  | Purchasing and invoicing   |      264  | 11% |
 
 Product setup, pricing and licensing, and feature requests represent the
 largest support-demand areas.
