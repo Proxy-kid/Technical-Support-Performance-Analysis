@@ -86,8 +86,14 @@ customer-satisfaction fields.
 
 The cleaning stage included:
 
--   Duplicate and missing Ticket ID checks.
--   Standardization of inconsistent categorical values.
+**Duplicate and missing Ticket ID checks.**
+
+![Checking for duplicates](excel./duplicates.png)
+
+**Standardization of inconsistent categorical values.**
+
+![Checking for duplicates](excel./duplicates.png)
+
 -   Whitespace and capitalization cleanup.
 -   Timestamp chronology validation.
 -   Data-quality flags for invalid response, resolution, and close
