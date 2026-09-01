@@ -157,6 +157,9 @@ ticket can still contain valid operational information.
 Product setup, pricing and licensing, and feature requests represent the
 largest support-demand areas.
 
+- **Product:** *Ready to use Software* generates the most tickets (43%), well ahead of *Custom software development* (28%).
+- **Channel:** *Email* carries the heaviest load (53% of tickets), with *Chat* at 37% and *Phone* the smallest share at 11%.
+
 **Business implication:** These topics provide strong opportunities for
 reducing avoidable support demand through improved onboarding,
 documentation, FAQs, troubleshooting resources, and product education.
