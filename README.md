@@ -200,51 +200,15 @@ complexity, workload, or
 escalation processes.
 
 ------------------------------------------------------------------------
+### 5. Agent Performance & Customer Experience
 
-## 5. Agent performance requires a balanced view
+**How does performance vary by agent, and does speed or SLA compliance actually drive satisfaction?**
 
-Agent analysis combines:
+- **Agent spread:** Resolution SLA compliance ranges from 87.1% (Heather Urry) down to 78.4% (Connor Danielovitch) across the 8 agents — roughly a 9-point gap between the best and weakest performer on the same metric.
+- **Does faster resolution improve CSAT?** No — the data does not show this. CSAT is essentially flat across resolution-speed buckets (3.42 for tickets resolved in 0–4 hours vs **3.62 for tickets that took 49+ hours** — the slowest bucket actually scores highest).
+- **Does SLA compliance improve CSAT?** No — tickets where the resolution SLA was *violated* scored slightly **higher** CSAT (3.60) than tickets resolved within SLA (3.49).
 
--   Tickets handled
--   First-response SLA compliance
--   Resolution SLA compliance
--   Resolution time
--   Agent interactions
--   CSAT
-
-This avoids judging agents using ticket volume alone.
-
-Agent-level differences should still be interpreted carefully because
-the analysis does not fully control for ticket complexity and workload
-mix.
-
-------------------------------------------------------------------------
-
-## 6. Resolution speed does not clearly explain CSAT
-
-Resolution time was grouped into time bands and compared with average
-CSAT.
-
-The analysis did **not identify a clear pattern in which progressively
-slower resolution consistently resulted in lower customer
-satisfaction**.
-
-This does not prove that resolution speed has no effect on satisfaction.
-It means that resolution speed alone did not explain the observed CSAT
-differences in this dataset.
-
-------------------------------------------------------------------------
-
-## 7. SLA performance should be considered alongside customer experience
-
-Customer satisfaction was compared between tickets resolved within SLA
-and tickets where the resolution SLA was violated.
-
-This connects operational performance to the customer experience and
-provides a basis for determining whether SLA improvement is also
-associated with better customer outcomes.
-
-------------------------------------------------------------------------
+**Takeaway:** This is the most important — and most counter-intuitive — finding in the analysis. Speed and SLA compliance, as currently measured, are not what's driving customer satisfaction. CSAT is likely being shaped by something else entirely (how the issue was resolved, communication quality, first-contact resolution, agent tone) rather than the clock. Chasing faster resolution times alone will not move satisfaction scores — the team should investigate qualitative drivers of CSAT before over-indexing on speed metrics.
 
 # Management Recommendations
 
