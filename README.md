@@ -218,51 +218,31 @@ Prioritize **Product setup**, **Pricing and licensing**, and **Feature
 requests**.
 
 Potential actions:
-
 -   Improve onboarding documentation.
 -   Expand self-service resources.
 -   Create troubleshooting guides.
 -   Improve product FAQs.
 -   Investigate recurring product-related issues.
 
-### 2. Focus on the resolution stage
-
-The operation responds within SLA more often than it resolves within
-SLA.
-
-Management should investigate:
-
--   Escalation delays.
--   Ticket complexity.
--   Tier 1/Tier 2 workload.
--   Agent capacity.
--   Product-specific issues.
--   Resolution workflows.
-
-### 3. Investigate the year-end SLA deterioration
+### 2. Investigate the year-end SLA deterioration
 
 Compare monthly changes in:
-
 -   Ticket volume.
--   Priority mix.
--   Topic mix.
--   Product mix.
 -   Support level.
 -   Agent workload.
 
-### 4. Use CSAT as a complementary outcome metric
+### 3. Investigate the Email response gap 
+48 minutes to first response vs under 6 minutes for Chat/Phone is a large, actionable gap on the highest-volume channel.
 
-A high-volume area with poor SLA performance and low CSAT should receive
-more attention than an area with a high violation rate but very few
-tickets.
+### 4. Audit Medium-priority triage 
+it has the worst resolution SLA compliance despite not being the most urgent tier.
 
-### 5. Avoid single-metric performance decisions
+### 5. Close the resolve-to-close gap 
+59–70 hours of pure administrative lag after a ticket is already fixed is process waste, not workload.
 
-Agent and team performance should be assessed using:
+### 6. Don't optimize CSAT via speed alone 
+since faster/SLA-compliant tickets don't score higher satisfaction, pair this dataset with qualitative feedback (survey comments, call transcripts) to find the real satisfaction drivers before setting new team targets.
 
-**Volume + SLA + Resolution Time + Interactions + CSAT**
-
-This provides a more balanced view of performance.
 
 ------------------------------------------------------------------------
 
