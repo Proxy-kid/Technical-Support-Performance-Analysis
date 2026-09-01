@@ -257,31 +257,12 @@ since faster/SLA-compliant tickets don't score higher satisfaction, pair this da
 ------------------------------------------------------------------------
 
 # Tableau Dashboard
+*💡 **Note:** Click the dashboard image layout below to open the fully interactive visualization on Tableau
 
-## Technical Support Performance Dashboard
+[![Executive Dashboard](Dashboard/technical_support.png)](https://public.tableau.com/views/customer_support/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-The dashboard provides an executive view of:
 
--   Total ticket volume
--   Resolved tickets
--   First-response SLA
--   Resolution SLA
--   Average CSAT
--   Ticket volume trends
--   Ticket status
--   Ticket priority
--   Top support topics
--   Support channel distribution
--   SLA compliance trends
--   CSAT trends
--   Interactive support filters
-
-The dashboard is designed to answer:
-
-> **What is happening in the support operation, where is performance
-> weakening, and which areas deserve management attention?**
-
-**Tableau Public:** Add your published Tableau URL here.
+**Tableau Public:** 
 
 ------------------------------------------------------------------------
 
